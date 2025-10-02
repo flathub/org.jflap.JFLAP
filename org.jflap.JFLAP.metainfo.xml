@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2023 Miguel R. Araújo -->
+<!-- Copyright 2023-2025 Miguel R. Araújo -->
 <component type="desktop-application">
   <id>org.jflap.JFLAP</id>
-  
+
   <name>JFLAP</name>
   <developer_name>Duke University Computer Science Department</developer_name>
   <summary>Formal languages testing</summary>
-  
+
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://www2.cs.duke.edu/csed/jflap/jflaptmp/july27-18/license.html</project_license>
   <url type="homepage">https://www.jflap.org/</url>
   <url type="help">https://www.jflap.org/tutorial/</url>
   <url type="contact">https://www.jflap.org/contactinfo.html</url>
-  
+
   <description>
     <p>
-    JFLAP is software for experimenting with formal languages topics including nondeterministic finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types of grammars, parsing, and L-systems. In addition to constructing and testing examples for these, JFLAP allows one to experiment with construction proofs from one form to another, such as converting an NFA to a DFA to a minimal state DFA to a regular expression or regular grammar.
+      JFLAP is software for experimenting with formal languages topics including nondeterministic
+      finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types
+      of grammars, parsing, and L-systems. In addition to constructing and testing examples for
+      these, JFLAP allows one to experiment with construction proofs from one form to another, such
+      as converting an NFA to a DFA to a minimal state DFA to a regular expression or regular
+      grammar.
     </p>
     <p>
-    NOTE: This Flatpak is unofficial and not supported by JFLAP developers. Find officially supported jar files on jflap.org.
+      NOTE: This Flatpak is unofficial and not supported by JFLAP developers. Find officially
+      supported jar files on jflap.org.
     </p>
   </description>
-  
+
   <launchable type="desktop-id">org.jflap.JFLAP.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/reisaraujo-miguel/flathub/jflap/images/finite-automaton.png</image>
+      <image>
+        https://raw.githubusercontent.com/reisaraujo-miguel/flathub/jflap/images/finite-automaton.png</image>
       <caption>Finite automaton simulation</caption>
     </screenshot>
     <screenshot>
@@ -42,9 +49,9 @@
     </screenshot>
   </screenshots>
 
-  <content_rating type="oars-1.1"/>
+  <content_rating type="oars-1.1" />
 
   <releases>
-    <release version="7.1" date="2018-7-27"/>
+    <release version="7.1" date="2018-7-27" />
   </releases>
 </component>

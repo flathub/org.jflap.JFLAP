@@ -1,11 +1,11 @@
 app-id: org.jflap.JFLAP
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: jflap
 
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+    - org.freedesktop.Sdk.Extension.openjdk25
 
 finish-args:
   # X11 + XShm access
@@ -14,7 +14,7 @@ finish-args:
   # GPU acceleration if needed
   - --device=dri
   # Jflap does not have support for portals :(
-  - --filesystem=home
+  - --filesystem=xdg-documents
   # Path
   - --env=PATH=/app/jre/bin:/usr/bin:/app/bin:$PATH
 
@@ -22,7 +22,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
+      - /usr/lib/sdk/openjdk25/install.sh
 
   - name: jflap
     buildsystem: simple
