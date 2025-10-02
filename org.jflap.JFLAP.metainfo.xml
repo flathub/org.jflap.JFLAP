@@ -8,8 +8,7 @@
   <summary>Formal languages testing</summary>
 
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>
-    LicenseRef-proprietary=https://www2.cs.duke.edu/csed/jflap/jflaptmp/july27-18/license.html</project_license>
+  <project_license>LicenseRef-proprietary=https://www2.cs.duke.edu/csed/jflap/jflaptmp/july27-18/license.html</project_license>
   <url type="homepage">https://www.jflap.org/</url>
   <url type="help">https://www.jflap.org/tutorial/</url>
   <url type="contact">https://www.jflap.org/contactinfo.html</url>

@@ -14,7 +14,7 @@ finish-args:
   # GPU acceleration if needed
   - --device=dri
   # Jflap does not have support for portals :(
-  - --filesystem=home
+  - --filesystem=xdg-documents
   # Path
   - --env=PATH=/app/jre/bin:/usr/bin:/app/bin:$PATH
 
