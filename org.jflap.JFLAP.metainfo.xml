@@ -9,11 +9,15 @@
 
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://www2.cs.duke.edu/csed/jflap/jflaptmp/july27-18/license.html</project_license>
-  <url type="homepage">https://www.jflap.org/</url>
+  <url type="homepage">https://www.jflap.org</url>
   <url type="help">https://www.jflap.org/tutorial/</url>
   <url type="contact">https://www.jflap.org/contactinfo.html</url>
+  <launchable type="desktop-id">org.jflap.JFLAP.desktop</launchable>
+  <content_rating type="oars-1.1" />
 
   <description>
+    <p>**Note: This is a community package of JFLAP and not officially supported by Duke University Computer Science Department. 
+      Find officially supported jar files on jflap.org.**</p>    
     <p>
       JFLAP is software for experimenting with formal languages topics including nondeterministic
       finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types
@@ -22,13 +26,8 @@
       as converting an NFA to a DFA to a minimal state DFA to a regular expression or regular
       grammar.
     </p>
-    <p>
-      NOTE: This Flatpak is unofficial and not supported by JFLAP developers. Find officially
-      supported jar files on jflap.org.
-    </p>
   </description>
 
-  <launchable type="desktop-id">org.jflap.JFLAP.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>
@@ -48,8 +47,6 @@
       <caption>Grammar editor</caption>
     </screenshot>
   </screenshots>
-
-  <content_rating type="oars-1.1" />
 
   <releases>
     <release version="7.1" date="2018-7-27" />
