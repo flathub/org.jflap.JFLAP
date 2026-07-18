@@ -16,8 +16,6 @@
   <content_rating type="oars-1.1" />
 
   <description>
-    <p>**Note: This is a community package of JFLAP and not officially supported by Duke University Computer Science Department. 
-      Find officially supported jar files on jflap.org.**</p>    
     <p>
       JFLAP is software for experimenting with formal languages topics including nondeterministic
       finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types
